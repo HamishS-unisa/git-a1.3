@@ -59,6 +59,10 @@
             }
             return 0;
         }
+        function nightmode() {
+            var e = document.querySelector(":root");
+            e.setAttribute("data-theme", "dark");
+        }
     </script>
 
 </head>
@@ -92,7 +96,7 @@
     <p id="birdtext">Pardalote by fir0002 (CC-by-NC)</p>
 </body>
 
-<button toggle="nightmode()"
+<button onclick="nightmode()"
     style="background-color: var(--secondary-color); color: var(--font-color);">nightmode</button>
 
 
