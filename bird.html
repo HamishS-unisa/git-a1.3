@@ -41,9 +41,11 @@
     <script>
         function birdselect(value) {
             var image = document.getElementById('birdmain')
+            var text = document.getElementById('birdtext')
             var i = value;
             if (i == 0) {
                 image.src = "http://www.outgrabe.net/bird00.jpg";
+                text = "Pardalote by fir0002 (CC-by-NC)"
             } if (i == 1) {
                 image.src = "http://www.outgrabe.net/bird01.jpg";
             } if (i == 2) {
@@ -77,7 +79,7 @@
 
     </nav>
     <img id="birdmain" src="http://www.outgrabe.net/bird00.jpg" alt="image not found">
-
+    <p id="birdtext"></p>
 </body>
 
 
