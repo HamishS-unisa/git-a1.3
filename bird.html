@@ -54,11 +54,11 @@
 
     <nav>
         <ul style="list-style: none;display:flex;justify-content: space-between;padding-right: 10%;padding-left: 10%;">
-            <li><button onclick="birdimage()" id="0">Pardalote</button></li>
-            <li><button onclick="birdimage()" id="1">Purple Swamp Hen </button></li>
-            <li><button onclick="birdimage()" id="2">White-headed Stilt</button></li>
-            <li><button onclick="birdimage()" id="3">Inland Thornbill</button></li>
-            <li><button onclick="birdimage()" id="4">Rose Robin</button></li>
+            <li><button onclick="birdimage(0)" id="0">Pardalote</button></li>
+            <li><button onclick="birdimage(1)" id="1">Purple Swamp Hen </button></li>
+            <li><button onclick="birdimage(2)" id="2">White-headed Stilt</button></li>
+            <li><button onclick="birdimage(3)" id="3">Inland Thornbill</button></li>
+            <li><button onclick="birdimage(4)" id="4">Rose Robin</button></li>
         </ul>
 
 
@@ -70,7 +70,7 @@
 
         <script>
             const birdimage = document.getElementById("birdimage");
-            function birdimage(button) {
+            function birdimage(value) {
 
                 if (id = 0) {
                     birdimage.src = "http://www.outgrabe.net/bird00.jpg";
