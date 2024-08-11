@@ -38,10 +38,24 @@
 
         }
     </style>
-    function image1(button){
-    if(button)
-
-    }
+    <script>
+        function birdselect() {
+            var image = document.getElementById('birdmain')
+            var i = value;
+            if (i = 0) {
+                image.src = "http://www.outgrabe.net/bird00.jpg";
+            } if (i = 1) {
+                image.src = "http://www.outgrabe.net/bird01.jpg";
+            } if (i = 2) {
+                image.src = "http://www.outgrabe.net/bird02.jpg";
+            } if (i = 3) {
+                image.src = "http://www.outgrabe.net/bird03.jpg";
+            } if (i = 4) {
+                image.src = "http://www.outgrabe.net/bird04.jpg";
+            }
+            return 0;
+        }
+    </script>
 
 </head>
 
@@ -51,7 +65,6 @@
             Hamish's bird scrapbook
         </h1>
     </header>
-
     <nav>
         <ul style="list-style: none;display:flex;justify-content: space-between;padding-right: 10%;padding-left: 10%;">
             <li><button onclick="birdimage(0)" id="0">Pardalote</button></li>
@@ -63,46 +76,8 @@
 
 
     </nav>
+    <img id="birdmain" src="http://www.outgrabe.net/bird00.jpg" alt="image not found">
 
-    <main style="color: var(--base-font-color);">
-
-        <img src="http://www.outgrabe.net/bird00.jpg" id="birdimage">
-
-        <script>
-            const birdimage = document.getElementById("birdimage");
-            function birdimage(value) {
-
-                if (id = 0) {
-                    birdimage.src = "http://www.outgrabe.net/bird00.jpg";
-                } if (id = 1) {
-                    birdimage.src = "http://www.outgrabe.net/bird01.jpg";
-                } if (id = 2) {
-                    birdimage.src = "http://www.outgrabe.net/bird02.jpg";
-                } if (id = 3) {
-                    birdimage.src = "http://www.outgrabe.net/bird03.jpg";
-                } if (id = 4) {
-                    birdimage.src = "http://www.outgrabe.net/bird04.jpg";
-                }
-
-
-            }
-        </script>
-        <img src="p://www.outgrabe.net/bird01.jpg">
-        .style.display = "block";
-        document.getElementById('btnID')
-        .style.display = "none";
-        <p src=""></p>
-        <!-- the aside content can also be nested within the main content -->
-
-
-
-    </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-
-    <footer style="background-color: var(--c-background-highlights); color: var(--base-font-color);">
-        <p>©Copyright 2050 by nobody. All rights reversed.</p>
-    </footer>
 
 </body>
 
